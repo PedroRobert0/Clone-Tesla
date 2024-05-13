@@ -1,0 +1,30 @@
+@media screen and (max-width: 900px){
+    h1{
+        height: 600px;
+        background-position: center;
+    }
+
+    nav{
+        display: none;
+    }
+
+    #first-nav, .unique-nav{
+        display: none;
+    }
+
+    .show-nav{
+        display: inline;
+        background-color: rgb(119, 119, 119 );
+        border-radius: 10px;
+    }
+
+    #butons{
+        position: relative;
+        bottom: 200px;
+    }
+
+    button{
+        width: 90%;
+    }
+
+}
